@@ -5,45 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <script src="app.js" defer></script>
     <title>Digi-Octave</title>
 </head>
 
 <body>
-
+    <h1><span class="header-text">DIGI-OCTAVE</span></h1>
     <!-- Piano container section -->
-    
-    <div class="piano">
-        <div data-note="C" class="key white"></div>
-        <div data-note="Db" class="key black"></div>
-        <div data-note="D" class="key white"></div>
-        <div data-note="Eb" class="key black"></div>
-        <div data-note="E" class="key white"></div>
-        <div data-note="F" class="key white"></div>
-        <div data-note="Gb" class="key black"></div>
-        <div data-note="G" class="key white"></div>
-        <div data-note="Ab" class="key black"></div>
-        <div data-note="A" class="key white"></div>
-        <div data-note="Bb" class="key black"></div>
-        <div data-note="B" class="key white"></div>
+    <body-div>
+        <div class="piano">
+            <div data-note="C" class="key white"></div>
+            <div data-note="Db" class="key black"></div>
+            <div data-note="D" class="key white"></div>
+            <div data-note="Eb" class="key black"></div>
+            <div data-note="E" class="key white"></div>
+            <div data-note="F" class="key white"></div>
+            <div data-note="Gb" class="key black"></div>
+            <div data-note="G" class="key white"></div>
+            <div data-note="Ab" class="key black"></div>
+            <div data-note="A" class="key white"></div>
+            <div data-note="Bb" class="key black"></div>
+            <div data-note="B" class="key white"></div>
+            <div data-note="C1" class="key white"></div>
+
+        </div>
+
+        <!-- Audio tag section -->
+
+        <audio id="C" src="notes/1C.mp3"></audio>
+        <audio id="Db" src="notes/1Db.mp3"></audio>
+        <audio id="D" src="notes/1D.mp3"></audio>
+        <audio id="Eb" src="notes/1Eb.mp3"></audio>
+        <audio id="E" src="notes/1E.mp3"></audio>
+        <audio id="F" src="notes/1F.mp3"></audio>
+        <audio id="Gb" src="notes/1Gb.mp3"></audio>
+        <audio id="G" src="notes/1G.mp3"></audio>
+        <audio id="Ab" src="notes/1Ab.mp3"></audio>
+        <audio id="A" src="notes/1A.mp3"></audio>
+        <audio id="Bb" src="notes/1Bb.mp3"></audio>
+        <audio id="B" src="notes/1B.mp3"></audio>
+        <audio id="C1" src="notes/1hiC.mp3"></audio>
+        <audio id="c-major" src="notes/CMajor.mp3"></audio>
+        <audio id="c-minor" src="notes/CMinor.mp3"></audio>
+    </body-div>
+    <div><span class="drone-note">
+            <div data-note="c-major" class="key drone">MAJOR DRONE CHORD</div>
+            <div data-note="c-minor" class="key drone">MINOR DRONE CHORD</div>
+        </span>
 
     </div>
-
-    <!-- Audio tag section -->
-
-    <audio id="C" src="notes/C.mp3"></audio>
-    <audio id="Db" src="notes/Db.mp3"></audio>
-    <audio id="D" src="notes/D.mp3"></audio>
-    <audio id="Eb" src="notes/Eb.mp3"></audio>
-    <audio id="E" src="notes/E.mp3"></audio>
-    <audio id="F" src="notes/F.mp3"></audio>
-    <audio id="Gb" src="notes/Gb.mp3"></audio>
-    <audio id="G" src="notes/G.mp3"></audio>
-    <audio id="Ab" src="notes/Ab.mp3"></audio>
-    <audio id="A" src="notes/A.mp3"></audio>
-    <audio id="Bb" src="notes/Bb.mp3"></audio>
-    <audio id="B" src="notes/B.mp3"></audio>
-
 </body>
 
 </html>
